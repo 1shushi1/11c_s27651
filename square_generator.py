@@ -3,6 +3,12 @@
 Task 3: Classes
 Create a class called SquareGenerator that has a method to generate squares for a given range of numbers.
 """
+
+"""
+Task 6: Modules
+Extract the SquareGenerator class into a separate module named square_generator.py.
+"""
+
 class SquareGenerator:
 
     def __init__(self):
