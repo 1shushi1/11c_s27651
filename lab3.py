@@ -54,3 +54,10 @@ Transform the square_generator module into a package by adding an empty __init__
 """
 
 
+"""
+Task 8: Inheritance
+Create a subclass called CubicGenerator that inherits from the SquareGenerator class. Modify the CubicGenerator to generate cubes instead of squares.
+"""
+
+
+
