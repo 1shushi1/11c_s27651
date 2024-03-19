@@ -48,3 +48,9 @@ Extract the SquareGenerator class into a separate module named square_generator.
 squares = SquareGenerator()
 print(squares.squares_generator(1, 11))
 
+"""
+Task 7: Packages
+Transform the square_generator module into a package by adding an empty __init__.py file and organize it accordingly.
+"""
+
+
