@@ -22,10 +22,10 @@ Task 8: Inheritance
 Create a subclass called CubicGenerator that inherits from the SquareGenerator class. Modify the CubicGenerator to generate cubes instead of squares.
 """
 
-class CubicGenerator(SquareGenerator):
-    def cubes_generator(self, start, end):
-        cubes = [i ** 3 for i in range(start, end)]
-        return cubes
+# class CubicGenerator(SquareGenerator):
+#     def cubes_generator(self, start, end):
+#         cubes = [i ** 3 for i in range(start, end)]
+#         return cubes
 
 """
 Task 9: Function Overriding
@@ -34,9 +34,10 @@ if not return an Exceptions
 """
 
 
-# class CubicGenerator(SquareGenerator):
-#     def squares_generator(self, start, end):
-#         if start < end:
-#             squares = [i ** 2 for i in range(start, end)]
-#         else:
-#             raise ValueError("End value must be grater than start value")
+class CubicGenerator(SquareGenerator):
+    def squares_generator(self, start, end):
+        if start < end:
+            squares = [i ** 2 for i in range(start, end)]
+        else:
+            raise ValueError("End value must be grater than start value")
+        return squares

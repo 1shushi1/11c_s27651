@@ -59,12 +59,15 @@ Transform the square_generator module into a package by adding an empty __init__
 Task 8: Inheritance
 Create a subclass called CubicGenerator that inherits from the SquareGenerator class. Modify the CubicGenerator to generate cubes instead of squares.
 """
-cube_generator = CubicGenerator()
-print(cube_generator.cubes_generator(1, 11))
+# cube_generator = CubicGenerator()
+# print(cube_generator.cubes_generator(1, 11))
 
 """
 Task 9: Function Overriding
 Override the square generation method in the Cubic Generator class to generate squares with a check to see if the start of the range is less than the end, 
 if not return an Exceptions
 """
+
+# square_generator = CubicGenerator()
+# print(square_generator.squares_generator(10, 9))
 
