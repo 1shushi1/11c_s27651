@@ -8,5 +8,7 @@ class SquareGenerator:
     def __init__(self):
         pass
     def squares_generator(self, start, end):
+        if end < start:
+            raise ValueError("End value must be grater than start value")
         squares = [i ** 2 for i in range(start, end)]
         return squares

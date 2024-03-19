@@ -33,10 +33,15 @@ Create a class called SquareGenerator that has a method to generate squares for 
 Task 4: Libraries
 Utilize the math library to calculate the square root of each number in the generated list from the previous task.
 """
-square_generator = SquareGenerator()
-print([math.sqrt(i) for i in square_generator.squares_generator(1, 11)])
+# square_generator = SquareGenerator()
+# print([math.sqrt(i) for i in square_generator.squares_generator(1, 11)])
 
-
+"""
+Task 5: Exceptions
+Handle the case where the end of the range is less than the start in the SquareGenerator class.
+"""
+# square_generator = SquareGenerator()
+# print([math.sqrt(i) for i in square_generator.squares_generator(10, 9)])
 
 
 
