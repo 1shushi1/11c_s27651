@@ -1,20 +1,25 @@
+from abc import ABC, abstractmethod
+
+
 """
 Task 3: Classes
 Create a class called SquareGenerator that has a method to generate squares for a given range of numbers.
 """
-
 """
 Task 6: Modules
 Extract the SquareGenerator class into a separate module named square_generator.py.
 """
+# class SquareGenerator:
+#     def squares_generator(self, start, end):
+#         if end < start:
+#             raise ValueError("End value must be grater than start value")
+#         squares = [i ** 2 for i in range(start, end)]
+#         return squares
 
-
-class SquareGenerator:
+class SquareGenerator(ABC):
+    @abstractmethod
     def squares_generator(self, start, end):
-        if end < start:
-            raise ValueError("End value must be grater than start value")
-        squares = [i ** 2 for i in range(start, end)]
-        return squares
+       pass
 
 
 """
@@ -41,3 +46,10 @@ class CubicGenerator(SquareGenerator):
         else:
             raise ValueError("End value must be grater than start value")
         return squares
+
+"""
+Task 10: Abstract Elements
+Convert the SquareGenerator class into an abstract base class (ABC) using the abc module, making the generate_squares method abstract.
+ Ensure that the CubicGenerator class implements this abstract method.
+"""
+#Done

@@ -71,3 +71,10 @@ if not return an Exceptions
 # square_generator = CubicGenerator()
 # print(square_generator.squares_generator(10, 9))
 
+"""
+Task 10: Abstract Elements
+Convert the SquareGenerator class into an abstract base class (ABC) using the abc module, making the generate_squares method abstract. 
+Ensure that the CubicGenerator class implements this abstract method.
+"""
+#Done
+
