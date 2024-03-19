@@ -1,5 +1,5 @@
 import math
-from square_generator import SquareGenerator
+from  square_generator.square_generator import SquareGenerator
 
 """
 Task1:
@@ -45,8 +45,8 @@ Handle the case where the end of the range is less than the start in the SquareG
 Task 6: Modules
 Extract the SquareGenerator class into a separate module named square_generator.py.
 """
-squares = SquareGenerator()
-print(squares.squares_generator(1, 11))
+# squares = SquareGenerator()
+# print(squares.squares_generator(1, 11))
 
 """
 Task 7: Packages
